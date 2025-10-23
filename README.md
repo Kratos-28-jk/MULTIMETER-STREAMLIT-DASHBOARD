@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multimeter Streamlit Dashboard
 
 Real-time monitoring dashboard for Energy Meter using Streamlit.
@@ -97,3 +98,6 @@ Your Name
 ## Support
 
 For issues and questions, please open an issue on GitHub.
+=======
+# MULTIMETER-STREAMLIT-DASHBOARD
+>>>>>>> ccaa3346600403dc6505a09af7b4a8e3f1d21cf8
