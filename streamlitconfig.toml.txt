@@ -1,0 +1,32 @@
+# .streamlit/config.toml
+# Configuration for local network deployment
+
+[server]
+# Allow connections from any IP address
+headless = true
+address = "0.0.0.0"
+port = 8501
+
+# Enable CORS for network access
+enableCORS = true
+enableXsrfProtection = true
+
+# File watcher settings
+fileWatcherType = "auto"
+
+[browser]
+# Don't automatically open browser (optional)
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[runner]
+# Faster rerun for better responsiveness
+fastReruns = true
