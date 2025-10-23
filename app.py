@@ -20,10 +20,6 @@ import json
 import logging
 
 # Try to import Modbus libraries (optional for demonstration)
-from network_helper import display_network_info, show_connection_status
-
-# In your sidebar section:
-display_network_info()
 try:
     from pymodbus.client import ModbusTcpClient as ModbusClient
     from pymodbus.payload import BinaryPayloadDecoder
